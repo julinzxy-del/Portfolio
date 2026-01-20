@@ -1,0 +1,119 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box; 
+    }
+
+    body {
+      background: linear-gradient(135deg, rgb(14, 14, 14) 0%, rgb(30, 30, 30) 100%);
+      color: #e5e7eb;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    header {
+      padding: 60px 20px;
+      text-align: center;
+      background: linear-gradient(135deg,  0%, rgba(14, 14, 14, 0.8) 100%);
+      border-radius: 0 0 20px 20px;
+      margin-bottom: 20px;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    header span {
+      color: #eabd40;
+    }
+
+    hr {
+      border: none;
+      height: 2px;
+      background: #eabd40;
+      margin: 20px auto;
+      width: 100%;
+      
+    }
+    section {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 60px 20px;
+      clear: both;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+      color: #eabd40;
+    }
+
+    .skills, .projects, .experience {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.05);
+      padding: 25px;
+      border-radius: 12px;
+      transition: all 0.3s ease;
+      border: 1px solid rgba(234, 189, 64, 0.3);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(234, 189, 64, 0.2);
+      border-color: #eabd40;
+    }
+
+    .contact a {
+      display: inline-block;
+      margin: 10px 10px 0 0;
+      color: #eabd40;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #94a3b8;
+    }
+    .intro {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 60px 20px;
+    }
+    .intro img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #eabd40;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    }
+    .sobre-mim {
+      flex: 1;
+    }
+    .sobre-mim h2 {
+      margin-bottom: 20px;
+      color: #eabd40;
+    }
+    img {
+      width: 100%;
+      border-radius: 8px;
+      margin-top: 10px;
+    }
+    div.social img {
+      width: 20px;
+      vertical-align: middle;
+      margin-right: 2px;
+      height: 20px;
+      margin: -4px 4px 0 0;
+    }
